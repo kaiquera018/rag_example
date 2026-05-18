@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Neo4j
+neo4j/data/
+neo4j/logs/
+neo4j/plugins/
+
+# Outros
+.env
+*.env
+*.bak
+*.tmp
+*.swp
+
+# Respostas geradas
+respostas/*.md
+
+# Docker
+*.pid
+docker-compose.override.yml
